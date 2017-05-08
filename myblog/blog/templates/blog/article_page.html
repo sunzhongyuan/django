@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>article_page</title>
+    </head>
+    <body>
+        <h1>{{article.title}}</h1>
+        <br/>
+        <h3>{{article.content}}</h3>
+        <br>
+        <br>
+        <a href="#">修改文章</a>
+        <br>
+        <a href="{% url 'blog:index' %}">返回文章列表</a>
+    </body>
+</html>
