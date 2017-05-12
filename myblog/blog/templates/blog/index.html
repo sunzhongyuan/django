@@ -11,6 +11,7 @@
     {% for article in articles %}
       <a href="{% url 'blog:article_page' article.id %}">{{ article.title }}</a>
       <a href="{% url 'blog:article_del' article.id %}">删除</a>
+      <a href="{% url 'blog:article_test' %}">test</a>
       <br/>
     {% endfor %}
   </body>
